@@ -8,7 +8,7 @@ fully deterministic.
 import os
 from pathlib import Path
 
-ENTRY = "I pretended the deploy worked."
+ENTRY = "I faked the deploy report."
 
 assert 1 <= len(ENTRY.split()) <= 5, "ENTRY must be 1-5 words"
 assert 1 <= len(ENTRY) <= 88, "ENTRY must be 1-88 characters"
